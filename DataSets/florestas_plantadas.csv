@@ -13,7 +13,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2006;Eucalipto;Eucalipto;Tocantins;13901
 2006;Eucalipto;Eucalipto;Santa Catarina;70341
 2006;Eucalipto;Eucalipto;Amapá;58473
-2006;Eucalipto;Eucalipto;Piauí;
+2006;Eucalipto;Eucalipto;Piauí;NULL
 2006;Eucalipto;Eucalipto;Outros;27491
 2007;Eucalipto;Eucalipto;Minas Gerais;1218212
 2007;Eucalipto;Eucalipto;São Paulo;911908
@@ -29,7 +29,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2007;Eucalipto;Eucalipto;Tocantins;21655
 2007;Eucalipto;Eucalipto;Santa Catarina;74008
 2007;Eucalipto;Eucalipto;Amapá;58874
-2007;Eucalipto;Eucalipto;Piauí;
+2007;Eucalipto;Eucalipto;Piauí;NULL
 2007;Eucalipto;Eucalipto;Outros;31588
 2008;Eucalipto;Eucalipto;Minas Gerais;1278210
 2008;Eucalipto;Eucalipto;São Paulo;1001080
@@ -45,7 +45,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2008;Eucalipto;Eucalipto;Tocantins;31920
 2008;Eucalipto;Eucalipto;Santa Catarina;77440
 2008;Eucalipto;Eucalipto;Amapá;63310
-2008;Eucalipto;Eucalipto;Piauí;
+2008;Eucalipto;Eucalipto;Piauí;NULL
 2008;Eucalipto;Eucalipto;Outros;27580
 2009;Eucalipto;Eucalipto;Minas Gerais;1300000
 2009;Eucalipto;Eucalipto;São Paulo;1029670
@@ -61,7 +61,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2009;Eucalipto;Eucalipto;Tocantins;44310
 2009;Eucalipto;Eucalipto;Santa Catarina;100140
 2009;Eucalipto;Eucalipto;Amapá;62880
-2009;Eucalipto;Eucalipto;Piauí;
+2009;Eucalipto;Eucalipto;Piauí;NULL
 2009;Eucalipto;Eucalipto;Outros;28380
 2006;Pinus;Pinus;Paraná;686453
 2006;Pinus;Pinus;Santa Catarina;530992
@@ -72,12 +72,12 @@ Ano;Cultura;Especie;Estado;Area_hec
 2006;Pinus;Pinus;Mato Grosso do Sul;28500
 2006;Pinus;Pinus;Bahia;54820
 2006;Pinus;Pinus;Espírito Santo;4408
-2006;Pinus;Pinus;Tocantins;
+2006;Pinus;Pinus;Tocantins;NULL
 2006;Pinus;Pinus;Amapá;20490
 2006;Pinus;Pinus;Mato Grosso;7
-2006;Pinus;Pinus;Maranhão;
+2006;Pinus;Pinus;Maranhão;NULL
 2006;Pinus;Pinus;Pará;149
-2006;Pinus;Pinus;Piauí;
+2006;Pinus;Pinus;Piauí;NULL
 2006;Pinus;Pinus;Outros;4189
 2007;Pinus;Pinus;Paraná;701578
 2007;Pinus;Pinus;Santa Catarina;548037
@@ -91,10 +91,10 @@ Ano;Cultura;Especie;Estado;Area_hec
 2007;Pinus;Pinus;Tocantins;700
 2007;Pinus;Pinus;Amapá;9000
 2007;Pinus;Pinus;Mato Grosso;7
-2007;Pinus;Pinus;Maranhão;
+2007;Pinus;Pinus;Maranhão;NULL
 2007;Pinus;Pinus;Pará;101
-2007;Pinus;Pinus;Piauí;
-2007;Pinus;Pinus;Outros;
+2007;Pinus;Pinus;Piauí;NULL
+2007;Pinus;Pinus;Outros;NULL
 2008;Pinus;Pinus;Paraná;714890
 2008;Pinus;Pinus;Santa Catarina;551220
 2008;Pinus;Pinus;Rio Grande do Sul;173160
@@ -107,10 +107,10 @@ Ano;Cultura;Especie;Estado;Area_hec
 2008;Pinus;Pinus;Tocantins;850
 2008;Pinus;Pinus;Amapá;1620
 2008;Pinus;Pinus;Mato Grosso;10
-2008;Pinus;Pinus;Maranhão;
+2008;Pinus;Pinus;Maranhão;NULL
 2008;Pinus;Pinus;Pará;10
-2008;Pinus;Pinus;Piauí;
-2008;Pinus;Pinus;Outros;
+2008;Pinus;Pinus;Piauí;NULL
+2008;Pinus;Pinus;Outros;NULL
 2009;Pinus;Pinus;Paraná;695790
 2009;Pinus;Pinus;Santa Catarina;550850
 2009;Pinus;Pinus;Rio Grande do Sul;171210
@@ -123,9 +123,9 @@ Ano;Cultura;Especie;Estado;Area_hec
 2009;Pinus;Pinus;Tocantins;850
 2009;Pinus;Pinus;Amapá;810
 2009;Pinus;Pinus;Mato Grosso;10
-2009;Pinus;Pinus;Maranhão;
-2009;Pinus;Pinus;Pará;
-2009;Pinus;Pinus;Piauí;
+2009;Pinus;Pinus;Maranhão;NULL
+2009;Pinus;Pinus;Pará;NULL
+2009;Pinus;Pinus;Piauí;NULL
 2009;Pinus;Pinus;Outros;490
 2010;Eucalipto;Eucalipto;Minas Gerais;1400000
 2010;Eucalipto;Eucalipto;São Paulo;1044813
@@ -293,7 +293,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2014;Pinus;Pinus;Bahia;6499
 2014;Pinus;Pinus;Espírito Santo;2660
 2014;Pinus;Pinus;Tocantins;430
-2014;Pinus;Pinus;Amapá;
+2014;Pinus;Pinus;Amapá;NULL
 2015;Pinus;Pinus;Paraná;670906
 2015;Pinus;Pinus;Santa Catarina;542662
 2015;Pinus;Pinus;Rio Grande do Sul;184603
@@ -304,7 +304,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2015;Pinus;Pinus;Bahia;3371
 2015;Pinus;Pinus;Espírito Santo;2713
 2015;Pinus;Pinus;Tocantins;265
-2015;Pinus;Pinus;Amapá;
+2015;Pinus;Pinus;Amapá;NULL
 2016;Pinus;Pinus;Paraná;672607
 2016;Pinus;Pinus;Santa Catarina;545835
 2016;Pinus;Pinus;Rio Grande do Sul;184595
@@ -315,7 +315,7 @@ Ano;Cultura;Especie;Estado;Area_hec
 2016;Pinus;Pinus;Bahia;3301
 2016;Pinus;Pinus;Espírito Santo;2500
 2016;Pinus;Pinus;Tocantins;200
-2016;Pinus;Pinus;Amapá;
+2016;Pinus;Pinus;Amapá;NULL
 2010;Outras culturas;Seringueira;Não informado;159500
 2010;Outras culturas;Acácia;Não informado;127600
 2010;Outras culturas;Teca;Não informado;65440
