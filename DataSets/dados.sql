@@ -6,14 +6,6 @@
 -- Tempo de geração: 04-Nov-2019 às 18:55
 -- Versão do servidor: 10.4.8-MariaDB
 -- versão do PHP: 7.3.11
-
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Banco de dados: `dados`
 --
@@ -23,6 +15,11 @@
 --
 -- Estrutura da tabela `certificacao`
 --
+DROP TABLE IF EXISTS `certificacao`;
+DROP TABLE IF EXISTS `certificacao`;
+DROP TABLE IF EXISTS `desmatamento`;
+DROP TABLE IF EXISTS `desmatamento_bioma`;
+DROP TABLE IF EXISTS `florestas_plantadas`;
 
 CREATE TABLE `certificacao` (
   `Ano` int(4) DEFAULT NULL,
@@ -576,7 +573,4 @@ INSERT INTO `florestas_plantadas` (`Ano`, `Cultura`, `Especie`, `Estado`, `Area_
 (2016, 'Outras culturas', 'Araucária', 'Não informado', '11114'),
 (2016, 'Outras culturas', 'Pópulus', 'Não informado', '4216'),
 (2016, 'Outras culturas', 'Outras', 'Não informado', '6641');
-/*!40101 
-CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
