@@ -7,10 +7,6 @@
 -- Versão do servidor: 10.4.8-MariaDB
 -- versão do PHP: 7.3.11
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -31,7 +27,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `certificacao` (
   `Ano` int(4) DEFAULT NULL,
   `Area_certificada_hec` varchar(9) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ;
 
 --
 -- Extraindo dados da tabela `certificacao`
@@ -66,7 +62,7 @@ CREATE TABLE `desmatamento` (
   `Numero_de_registros` int(1) DEFAULT NULL,
   `Periodo` int(4) DEFAULT NULL,
   `Area_desmatada_hec` varchar(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ;
 
 --
 -- Extraindo dados da tabela `desmatamento`
@@ -147,7 +143,7 @@ CREATE TABLE `desmatamento_bioma` (
   `Numero_de_registros` int(1) DEFAULT NULL,
   `Periodo` int(4) DEFAULT NULL,
   `Area_desmatada_hec` varchar(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ;
 
 --
 -- Extraindo dados da tabela `desmatamento_bioma`
@@ -207,7 +203,7 @@ CREATE TABLE `florestas_plantadas` (
   `Especie` varchar(11) DEFAULT NULL,
   `Estado` varchar(18) DEFAULT NULL,
   `Area_hec` varchar(7) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ;
 
 --
 -- Extraindo dados da tabela `florestas_plantadas`
@@ -580,8 +576,7 @@ INSERT INTO `florestas_plantadas` (`Ano`, `Cultura`, `Especie`, `Estado`, `Area_
 (2016, 'Outras culturas', 'Araucária', 'Não informado', '11114'),
 (2016, 'Outras culturas', 'Pópulus', 'Não informado', '4216'),
 (2016, 'Outras culturas', 'Outras', 'Não informado', '6641');
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 
+CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
