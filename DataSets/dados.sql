@@ -16,7 +16,6 @@
 -- Estrutura da tabela `certificacao`
 --
 DROP TABLE IF EXISTS `certificacao`;
-DROP TABLE IF EXISTS `certificacao`;
 DROP TABLE IF EXISTS `desmatamento`;
 DROP TABLE IF EXISTS `desmatamento_bioma`;
 DROP TABLE IF EXISTS `florestas_plantadas`;
