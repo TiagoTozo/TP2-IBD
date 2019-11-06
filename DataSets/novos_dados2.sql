@@ -592,7 +592,7 @@ CREATE TABLE `Queimadas` (
   `Estado` varchar(16) DEFAULT NULL,
   `Mes` varchar(9) DEFAULT NULL,
   `Qnt_Focos` decimal(7,2) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `Queimadas`
