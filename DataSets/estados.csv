@@ -1,28 +1,28 @@
-ID_Estado;Estado
-0;Acre
-1;Alagoas
-2;Amapá
-3;Amazonas
-4;Bahia
-5;Ceará
-6;Distrito Federal
-7;Espírito Santo
-8;Goiás
-9;Maranhão
-10;Mato Grosso
-11;Mato Grosso do Sul
-12;Minas Gerais
-13;Pará
-14;Paraíba
-15;Paraná
-16;Pernambuco
-17;Piauí
-18;Rio de Janeiro
-19;Rio Grande do Norte
-20;Rio Grande do Sul
-21;Rondônia
-22;Roraima
-23;Santa Catarina
-24;São Paulo
-25;Sergipe
-26;Tocantins
+Estado;Regiao
+Acre;Norte
+Alagoas;Nordeste
+Amapá;Norte
+Amazonas;Norte
+Bahia;Nordeste
+Ceará;Nordeste
+Distrito Federal;Centro-Oeste
+Espírito Santo;Sudeste
+Goiás;Centro-Oeste
+Maranhão;Nordeste
+Mato Grosso;Centro-Oeste
+Mato Grosso do Sul;Centro-Oeste
+Minas Gerais;Sudeste
+Pará;Norte
+Paraíba;Nordeste
+Paraná;Sul
+Pernambuco;Nordeste
+Piauí;Nordeste
+Rio de Janeiro;Sudeste
+Rio Grande do Norte;Nordeste
+Rio Grande do Sul;Sul
+Rondônia;Norte
+Roraima;Norte
+Santa Catarina;Sul
+São Paulo;Sudeste
+Sergipe;Nordeste
+Tocantins;Norte
