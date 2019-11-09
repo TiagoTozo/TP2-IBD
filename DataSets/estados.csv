@@ -1,28 +1,28 @@
 UF;Estado;Regiao;Número_habitantes
-AC;Acre;Norte;795.145
-AL;Alagoas;Nordeste;3.327.551
-AP;Amapá;Norte;756.500
-AM;Amazonas;Norte;3.893.763
-BA;Bahia;Nordeste;15.150.143
-CE;Ceará;Nordeste;8.867.448
-DF;Distrito Federal;Centro-Oeste;2.867.869
-ES;Espírito Santo;Sudeste;3.894.899
-GO;Goiás;Centro-Oeste;6.551.322
-MA;Maranhão;Nordeste;6.861.924
-MT;Mato Grosso;Centro-Oeste;3.236.578
-MS;Mato Grosso do Sul;Centro-Oeste;2.630.098
-MG;Minas Gerais;Sudeste;20.777.672
-PA;Pará;Norte;8.101.180
-PB;Paraíba;Nordeste;3.950.359
-PR;Paraná;Sul;11.112.062
-PE;Pernambuco;Nordeste;9.297.861
-PI;Piauí;Nordeste;3.198.185
-RJ;Rio de Janeiro;Sudeste;16.497.395
-RN;Rio Grande do Norte;Nordeste;3.419.550
-RS;Rio Grande do Sul;Sul;11.228.091
-RO;Rondônia;Norte;1.755.015
-RR;Roraima;Norte;500.826
-SC;Santa Catarina;Sul;6.734.568
-SP;São Paulo;Sudeste;44.169.350
-SE;Sergipe;Nordeste;2.227.294
-TO;Tocantins;Norte;1.502.759
+AC;Acre;Norte;795145
+AL;Alagoas;Nordeste;3327551
+AP;Amapá;Norte;756500
+AM;Amazonas;Norte;3893763
+BA;Bahia;Nordeste;15150143
+CE;Ceará;Nordeste;8867448
+DF;Distrito Federal;Centro-Oeste;2867869
+ES;Espírito Santo;Sudeste;3894899
+GO;Goiás;Centro-Oeste;6551322
+MA;Maranhão;Nordeste;6861924
+MT;Mato Grosso;Centro-Oeste;3236578
+MS;Mato Grosso do Sul;Centro-Oeste;2630098
+MG;Minas Gerais;Sudeste;20777672
+PA;Pará;Norte;8101180
+PB;Paraíba;Nordeste;3950359
+PR;Paraná;Sul;11112062
+PE;Pernambuco;Nordeste;9297861
+PI;Piauí;Nordeste;3198185
+RJ;Rio de Janeiro;Sudeste;16497395
+RN;Rio Grande do Norte;Nordeste;3419550
+RS;Rio Grande do Sul;Sul;11228091
+RO;Rondônia;Norte;1755015
+RR;Roraima;Norte;500826
+SC;Santa Catarina;Sul;6734568
+SP;São Paulo;Sudeste;44169350
+SE;Sergipe;Nordeste;2227294
+TO;Tocantins;Norte;1502759
