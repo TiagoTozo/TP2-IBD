@@ -13,7 +13,6 @@ ID_data;UF;Especie;Area
 168;TO;Eucalipto;13901.0
 168;SC;Eucalipto;70341.0
 168;AP;Eucalipto;58473.0
-168;PI;Eucalipto;nan
 168;PI;Eucalipto;27491.0
 181;MG;Eucalipto;1218212.0
 181;SP;Eucalipto;911908.0
@@ -29,7 +28,6 @@ ID_data;UF;Especie;Area
 181;TO;Eucalipto;21655.0
 181;SC;Eucalipto;74008.0
 181;AP;Eucalipto;58874.0
-181;PI;Eucalipto;nan
 181;PI;Eucalipto;31588.0
 194;MG;Eucalipto;1278210.0
 194;SP;Eucalipto;1001080.0
@@ -45,7 +43,6 @@ ID_data;UF;Especie;Area
 194;TO;Eucalipto;31920.0
 194;SC;Eucalipto;77440.0
 194;AP;Eucalipto;63310.0
-194;PI;Eucalipto;nan
 194;PI;Eucalipto;27580.0
 207;MG;Eucalipto;1300000.0
 207;SP;Eucalipto;1029670.0
@@ -61,7 +58,6 @@ ID_data;UF;Especie;Area
 207;TO;Eucalipto;44310.0
 207;SC;Eucalipto;100140.0
 207;AP;Eucalipto;62880.0
-207;PI;Eucalipto;nan
 207;PI;Eucalipto;28380.0
 168;PR;Pinus;686453.0
 168;SC;Pinus;530992.0
@@ -72,12 +68,9 @@ ID_data;UF;Especie;Area
 168;MS;Pinus;28500.0
 168;BA;Pinus;54820.0
 168;ES;Pinus;4408.0
-168;TO;Pinus;nan
 168;AP;Pinus;20490.0
 168;MT;Pinus;7.0
-168;MA;Pinus;nan
 168;PA;Pinus;149.0
-168;PI;Pinus;nan
 168;PI;Pinus;4189.0
 181;PR;Pinus;701578.0
 181;SC;Pinus;548037.0
@@ -91,10 +84,7 @@ ID_data;UF;Especie;Area
 181;TO;Pinus;700.0
 181;AP;Pinus;9000.0
 181;MT;Pinus;7.0
-181;MA;Pinus;nan
 181;PA;Pinus;101.0
-181;PI;Pinus;nan
-181;PI;Pinus;nan
 194;PR;Pinus;714890.0
 194;SC;Pinus;551220.0
 194;RS;Pinus;173160.0
@@ -107,10 +97,7 @@ ID_data;UF;Especie;Area
 194;TO;Pinus;850.0
 194;AP;Pinus;1620.0
 194;MT;Pinus;10.0
-194;MA;Pinus;nan
 194;PA;Pinus;10.0
-194;PI;Pinus;nan
-194;PI;Pinus;nan
 207;PR;Pinus;695790.0
 207;SC;Pinus;550850.0
 207;RS;Pinus;171210.0
@@ -123,9 +110,6 @@ ID_data;UF;Especie;Area
 207;TO;Pinus;850.0
 207;AP;Pinus;810.0
 207;MT;Pinus;10.0
-207;MA;Pinus;nan
-207;PA;Pinus;nan
-207;PI;Pinus;nan
 207;PI;Pinus;490.0
 220;MG;Eucalipto;1400000.0
 220;SP;Eucalipto;1044813.0
@@ -304,7 +288,6 @@ ID_data;UF;Especie;Area
 285;BA;Pinus;3371.0
 285;ES;Pinus;2713.0
 285;TO;Pinus;265.0
-285;AP;Pinus;nan
 298;PR;Pinus;672607.0
 298;SC;Pinus;545835.0
 298;RS;Pinus;184595.0
@@ -315,7 +298,6 @@ ID_data;UF;Especie;Area
 298;BA;Pinus;3301.0
 298;ES;Pinus;2500.0
 298;TO;Pinus;200.0
-298;AP;Pinus;nan
 220;NI;Seringueira;159500.0
 220;NI;Acácia;127600.0
 220;NI;Teca;65440.0
