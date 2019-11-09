@@ -1,51 +1,60 @@
-Bioma,Estado,desmat_bio_id
-Caatinga,Alagoas,0
-Caatinga,Bahia,1
-Caatinga,Ceará,2
-Caatinga,Maranhão,3
-Caatinga,Minas Gerais,4
-Caatinga,Paraíba,5
-Caatinga,Pernambuco,6
-Caatinga,Piauí,7
-Caatinga,Rio Grande do Norte,8
-Caatinga,Sergipe,9
-Cerrado,Bahia,10
-Cerrado,Distrito Federal,11
-Cerrado,Goiás,12
-Cerrado,Maranhão,13
-Cerrado,Mato Grosso,14
-Cerrado,Mato Grosso do Sul,15
-Cerrado,Minas Gerais,16
-Cerrado,Pará,17
-Cerrado,Paraná,18
-Cerrado,Piauí,19
-Cerrado,Rondônia,20
-Cerrado,São Paulo,21
-Cerrado,Tocantins,22
-Mata Atlântica,Alagoas,23
-Mata Atlântica,Bahia,24
-Mata Atlântica,Espírito Santo,25
-Mata Atlântica,Goiás,26
-Mata Atlântica,Mato Grosso do Sul,27
-Mata Atlântica,Minas Gerais,28
-Mata Atlântica,Paraíba,29
-Mata Atlântica,Paraná,30
-Mata Atlântica,Pernambuco,31
-Mata Atlântica,Rio de Janeiro,32
-Mata Atlântica,Rio Grande do Norte,33
-Mata Atlântica,Rio Grande do Sul,34
-Mata Atlântica,Santa Catarina,35
-Mata Atlântica,Sergipe,36
-Mata Atlântica,São Paulo,37
-Pampa,Rio Grande do Sul,38
-Pantanal,Mato Grosso,39
-Pantanal,Mato Grosso do Sul,40
-Amazônia Legal,Acre,41
-Amazônia Legal,Amapá,42
-Amazônia Legal,Amazonas,43
-Amazônia Legal,Maranhão,44
-Amazônia Legal,Mato Grosso,45
-Amazônia Legal,Pará,46
-Amazônia Legal,Rondônia,47
-Amazônia Legal,Roraima,48
-Amazônia Legal,Tocantins,49
+Bioma,UF
+Caatinga,AL
+Caatinga,BA
+Caatinga,CE
+Caatinga,MA
+Caatinga,MG
+Caatinga,PB
+Caatinga,PE
+Caatinga,PI
+Caatinga,RN
+Caatinga,SE
+Cerrado,BA
+Cerrado,DF
+Cerrado,GO
+Cerrado,MA
+Cerrado,MT
+Cerrado,MS
+Cerrado,MG
+Cerrado,PA
+Cerrado,PR
+Cerrado,PI
+Cerrado,RO
+Cerrado,SP
+Cerrado,TO
+Mata Atlântica,AL
+Mata Atlântica,BA
+Mata Atlântica,ES
+Mata Atlântica,GO
+Mata Atlântica,MS
+Mata Atlântica,MG
+Mata Atlântica,PB
+Mata Atlântica,PR
+Mata Atlântica,PE
+Mata Atlântica,RJ
+Mata Atlântica,RN
+Mata Atlântica,RS
+Mata Atlântica,SC
+Mata Atlântica,SE
+Mata Atlântica,SP
+Pampa,RS
+Pantanal,MT
+Pantanal,MS
+Amazônia Legal,AC
+Amazônia Legal,AP
+Amazônia Legal,AM
+Amazônia Legal,MA
+Amazônia Legal,MT
+Amazônia Legal,PA
+Amazônia Legal,RO
+Amazônia Legal,RR
+Amazônia Legal,TO
+Amazônia Legal,AC
+Amazônia Legal,AP
+Amazônia Legal,AM
+Amazônia Legal,MA
+Amazônia Legal,MT
+Amazônia Legal,PA
+Amazônia Legal,RO
+Amazônia Legal,RR
+Amazônia Legal,TO
