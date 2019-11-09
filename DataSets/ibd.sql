@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09-Nov-2019 às 22:09
+-- Tempo de geração: 09-Nov-2019 às 22:13
 -- Versão do servidor: 10.4.8-MariaDB
 -- versão do PHP: 7.3.11
 --
@@ -18,20 +18,21 @@
 
 CREATE TABLE `bioma` (
   `Bioma` varchar(14) DEFAULT NULL,
-  `Área_proteção_integral` varchar(10) DEFAULT NULL
+  `Area_proteção_integral` int(8) DEFAULT NULL,
+  `Area_uso_sustentavel` int(8) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `bioma`
 --
 
-INSERT INTO `bioma` (`Bioma`, `Área_proteção_integral`) VALUES
-('Caatinga', '1.117.400'),
-('Cerrado', '6.489.700'),
-('Mata Atlântica', '2.871.100'),
-('Pampa', '85.400'),
-('Pantanal', '440.300'),
-('Amazônia Legal', '43.019.000');
+INSERT INTO `bioma` (`Bioma`, `Area_proteção_integral`, `Area_uso_sustentavel`) VALUES
+('Caatinga', 1117400, 5359300),
+('Cerrado', 6489700, 17735500),
+('Mata Atlântica', 2871100, 8671900),
+('Pampa', 85400, 440300),
+('Pantanal', 440300, 2222),
+('Amazônia Legal', 43019000, 76658900);
 
 -- --------------------------------------------------------
 
