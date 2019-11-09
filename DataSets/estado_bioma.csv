@@ -1,51 +1,51 @@
-,Bioma,Estado
-0,Caatinga,Alagoas
-5,Caatinga,Bahia
-10,Caatinga,Ceará
-15,Caatinga,Maranhão
-20,Caatinga,Minas Gerais
-25,Caatinga,Paraíba
-30,Caatinga,Pernambuco
-35,Caatinga,Piauí
-40,Caatinga,Rio Grande do Norte
-45,Caatinga,Sergipe
-50,Cerrado,Bahia
-58,Cerrado,Distrito Federal
-66,Cerrado,Goiás
-74,Cerrado,Maranhão
-82,Cerrado,Mato Grosso
-90,Cerrado,Mato Grosso do Sul
-98,Cerrado,Minas Gerais
-106,Cerrado,Pará
-107,Cerrado,Paraná
-115,Cerrado,Piauí
-123,Cerrado,Rondônia
-128,Cerrado,São Paulo
-136,Cerrado,Tocantins
-144,Mata Atlântica,Alagoas
-147,Mata Atlântica,Bahia
-151,Mata Atlântica,Espírito Santo
-155,Mata Atlântica,Goiás
-159,Mata Atlântica,Mato Grosso do Sul
-163,Mata Atlântica,Minas Gerais
-167,Mata Atlântica,Paraíba
-169,Mata Atlântica,Paraná
-173,Mata Atlântica,Pernambuco
-177,Mata Atlântica,Rio de Janeiro
-181,Mata Atlântica,Rio Grande do Norte
-183,Mata Atlântica,Rio Grande do Sul
-187,Mata Atlântica,Santa Catarina
-191,Mata Atlântica,Sergipe
-195,Mata Atlântica,São Paulo
-199,Pampa,Rio Grande do Sul
-204,Pantanal,Mato Grosso
-208,Pantanal,Mato Grosso do Sul
-0,Amazônia Legal,Acre
-1,Amazônia Legal,Amapá
-2,Amazônia Legal,Amazonas
-3,Amazônia Legal,Maranhão
-4,Amazônia Legal,Mato Grosso
-5,Amazônia Legal,Pará
-6,Amazônia Legal,Rondônia
-7,Amazônia Legal,Roraima
-8,Amazônia Legal,Tocantins
+Bioma,Estado,desmat_bio_id
+Caatinga,Alagoas,0
+Caatinga,Bahia,1
+Caatinga,Ceará,2
+Caatinga,Maranhão,3
+Caatinga,Minas Gerais,4
+Caatinga,Paraíba,5
+Caatinga,Pernambuco,6
+Caatinga,Piauí,7
+Caatinga,Rio Grande do Norte,8
+Caatinga,Sergipe,9
+Cerrado,Bahia,10
+Cerrado,Distrito Federal,11
+Cerrado,Goiás,12
+Cerrado,Maranhão,13
+Cerrado,Mato Grosso,14
+Cerrado,Mato Grosso do Sul,15
+Cerrado,Minas Gerais,16
+Cerrado,Pará,17
+Cerrado,Paraná,18
+Cerrado,Piauí,19
+Cerrado,Rondônia,20
+Cerrado,São Paulo,21
+Cerrado,Tocantins,22
+Mata Atlântica,Alagoas,23
+Mata Atlântica,Bahia,24
+Mata Atlântica,Espírito Santo,25
+Mata Atlântica,Goiás,26
+Mata Atlântica,Mato Grosso do Sul,27
+Mata Atlântica,Minas Gerais,28
+Mata Atlântica,Paraíba,29
+Mata Atlântica,Paraná,30
+Mata Atlântica,Pernambuco,31
+Mata Atlântica,Rio de Janeiro,32
+Mata Atlântica,Rio Grande do Norte,33
+Mata Atlântica,Rio Grande do Sul,34
+Mata Atlântica,Santa Catarina,35
+Mata Atlântica,Sergipe,36
+Mata Atlântica,São Paulo,37
+Pampa,Rio Grande do Sul,38
+Pantanal,Mato Grosso,39
+Pantanal,Mato Grosso do Sul,40
+Amazônia Legal,Acre,41
+Amazônia Legal,Amapá,42
+Amazônia Legal,Amazonas,43
+Amazônia Legal,Maranhão,44
+Amazônia Legal,Mato Grosso,45
+Amazônia Legal,Pará,46
+Amazônia Legal,Rondônia,47
+Amazônia Legal,Roraima,48
+Amazônia Legal,Tocantins,49
