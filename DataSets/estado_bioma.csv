@@ -1,51 +1,51 @@
-Bioma,Estado
-Caatinga,Alagoas
-Caatinga,Bahia
-Caatinga,Ceará
-Caatinga,Maranhão
-Caatinga,Minas Gerais
-Caatinga,Paraíba
-Caatinga,Pernambuco
-Caatinga,Piauí
-Caatinga,Rio Grande do Norte
-Caatinga,Sergipe
-Cerrado,Bahia
-Cerrado,Distrito Federal
-Cerrado,Goiás
-Cerrado,Maranhão
-Cerrado,Mato Grosso
-Cerrado,Mato Grosso do Sul
-Cerrado,Minas Gerais
-Cerrado,Pará
-Cerrado,Paraná
-Cerrado,Piauí
-Cerrado,Rondônia
-Cerrado,São Paulo
-Cerrado,Tocantins
-Mata Atlântica,Alagoas
-Mata Atlântica,Bahia
-Mata Atlântica,Espírito Santo
-Mata Atlântica,Goiás
-Mata Atlântica,Mato Grosso do Sul
-Mata Atlântica,Minas Gerais
-Mata Atlântica,Paraíba
-Mata Atlântica,Paraná
-Mata Atlântica,Pernambuco
-Mata Atlântica,Rio de Janeiro
-Mata Atlântica,Rio Grande do Norte
-Mata Atlântica,Rio Grande do Sul
-Mata Atlântica,Santa Catarina
-Mata Atlântica,Sergipe
-Mata Atlântica,São Paulo
-Pampa,Rio Grande do Sul
-Pantanal,Mato Grosso
-Pantanal,Mato Grosso do Sul
-Amazônia Legal,Acre
-Amazônia Legal,Amapá
-Amazônia Legal,Amazonas
-Amazônia Legal,Maranhão
-Amazônia Legal,Mato Grosso
-Amazônia Legal,Pará
-Amazônia Legal,Rondônia
-Amazônia Legal,Roraima
-Amazônia Legal,Tocantins
+,Bioma,Estado
+0,Caatinga,Alagoas
+5,Caatinga,Bahia
+10,Caatinga,Ceará
+15,Caatinga,Maranhão
+20,Caatinga,Minas Gerais
+25,Caatinga,Paraíba
+30,Caatinga,Pernambuco
+35,Caatinga,Piauí
+40,Caatinga,Rio Grande do Norte
+45,Caatinga,Sergipe
+50,Cerrado,Bahia
+58,Cerrado,Distrito Federal
+66,Cerrado,Goiás
+74,Cerrado,Maranhão
+82,Cerrado,Mato Grosso
+90,Cerrado,Mato Grosso do Sul
+98,Cerrado,Minas Gerais
+106,Cerrado,Pará
+107,Cerrado,Paraná
+115,Cerrado,Piauí
+123,Cerrado,Rondônia
+128,Cerrado,São Paulo
+136,Cerrado,Tocantins
+144,Mata Atlântica,Alagoas
+147,Mata Atlântica,Bahia
+151,Mata Atlântica,Espírito Santo
+155,Mata Atlântica,Goiás
+159,Mata Atlântica,Mato Grosso do Sul
+163,Mata Atlântica,Minas Gerais
+167,Mata Atlântica,Paraíba
+169,Mata Atlântica,Paraná
+173,Mata Atlântica,Pernambuco
+177,Mata Atlântica,Rio de Janeiro
+181,Mata Atlântica,Rio Grande do Norte
+183,Mata Atlântica,Rio Grande do Sul
+187,Mata Atlântica,Santa Catarina
+191,Mata Atlântica,Sergipe
+195,Mata Atlântica,São Paulo
+199,Pampa,Rio Grande do Sul
+204,Pantanal,Mato Grosso
+208,Pantanal,Mato Grosso do Sul
+0,Amazônia Legal,Acre
+1,Amazônia Legal,Amapá
+2,Amazônia Legal,Amazonas
+3,Amazônia Legal,Maranhão
+4,Amazônia Legal,Mato Grosso
+5,Amazônia Legal,Pará
+6,Amazônia Legal,Rondônia
+7,Amazônia Legal,Roraima
+8,Amazônia Legal,Tocantins
