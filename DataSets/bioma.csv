@@ -1,7 +1,7 @@
-ID_Bioma;Bioma
-0;Caatinga
-1;Cerrado
-2;Mata Atlântica
-3;Pampa
-4;Pantanal
-5;Amazônia Legal
+Bioma;Área_proteção_integral
+Caatinga;1.117.400
+Cerrado;6.489.700
+Mata Atlântica;2.871.100
+Pampa;85.400
+Pantanal;440.300
+Amazônia Legal;43.019.000
