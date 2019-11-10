@@ -5,7 +5,7 @@ CREATE TABLE `Bioma` (
   `Nome` varchar(14) PRIMARY KEY,
   `Area_protecao_integral` int(8) DEFAULT NULL,
   `Area_uso_sustentavel` int(8) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+);
 
 --
 -- Extraindo dados da tabela `bioma_1`
