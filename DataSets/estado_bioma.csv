@@ -1,60 +1,51 @@
-Bioma,UF
-Caatinga,AL
-Caatinga,BA
-Caatinga,CE
-Caatinga,MA
-Caatinga,MG
-Caatinga,PB
-Caatinga,PE
-Caatinga,PI
-Caatinga,RN
-Caatinga,SE
-Cerrado,BA
-Cerrado,DF
-Cerrado,GO
-Cerrado,MA
-Cerrado,MT
-Cerrado,MS
-Cerrado,MG
-Cerrado,PA
-Cerrado,PR
-Cerrado,PI
-Cerrado,RO
-Cerrado,SP
-Cerrado,TO
-Mata Atlântica,AL
-Mata Atlântica,BA
-Mata Atlântica,ES
-Mata Atlântica,GO
-Mata Atlântica,MS
-Mata Atlântica,MG
-Mata Atlântica,PB
-Mata Atlântica,PR
-Mata Atlântica,PE
-Mata Atlântica,RJ
-Mata Atlântica,RN
-Mata Atlântica,RS
-Mata Atlântica,SC
-Mata Atlântica,SE
-Mata Atlântica,SP
-Pampa,RS
-Pantanal,MT
-Pantanal,MS
-Amazônia Legal,AC
-Amazônia Legal,AP
-Amazônia Legal,AM
-Amazônia Legal,MA
-Amazônia Legal,MT
-Amazônia Legal,PA
-Amazônia Legal,RO
-Amazônia Legal,RR
-Amazônia Legal,TO
-Amazônia Legal,AC
-Amazônia Legal,AP
-Amazônia Legal,AM
-Amazônia Legal,MA
-Amazônia Legal,MT
-Amazônia Legal,PA
-Amazônia Legal,RO
-Amazônia Legal,RR
-Amazônia Legal,TO
+Bioma;UF
+Caatinga;AL
+Caatinga;BA
+Caatinga;CE
+Caatinga;MA
+Caatinga;MG
+Caatinga;PB
+Caatinga;PE
+Caatinga;PI
+Caatinga;RN
+Caatinga;SE
+Cerrado;BA
+Cerrado;DF
+Cerrado;GO
+Cerrado;MA
+Cerrado;MT
+Cerrado;MS
+Cerrado;MG
+Cerrado;PA
+Cerrado;PR
+Cerrado;PI
+Cerrado;RO
+Cerrado;SP
+Cerrado;TO
+Mata Atlântica;AL
+Mata Atlântica;BA
+Mata Atlântica;ES
+Mata Atlântica;GO
+Mata Atlântica;MS
+Mata Atlântica;MG
+Mata Atlântica;PB
+Mata Atlântica;PR
+Mata Atlântica;PE
+Mata Atlântica;RJ
+Mata Atlântica;RN
+Mata Atlântica;RS
+Mata Atlântica;SC
+Mata Atlântica;SE
+Mata Atlântica;SP
+Pampa;RS
+Pantanal;MT
+Pantanal;MS
+Amazônia Legal;AC
+Amazônia Legal;AP
+Amazônia Legal;AM
+Amazônia Legal;MA
+Amazônia Legal;MT
+Amazônia Legal;PA
+Amazônia Legal;RO
+Amazônia Legal;RR
+Amazônia Legal;TO

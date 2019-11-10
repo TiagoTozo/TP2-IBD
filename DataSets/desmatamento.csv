@@ -1,103 +1,77 @@
-ID_data;Bioma;Estado;Area_desmatada_hec
-246;Amazônia Legal;Acre;2074194,28
-246;Amazônia Legal;Amapá;300224,71
-246;Amazônia Legal;Amazonas;3509103,62
-246;Amazônia Legal;Maranhão;10792084,54
-246;Amazônia Legal;Mato Grosso;20828885,18
-246;Amazônia Legal;Pará;25390530,66
-246;Amazônia Legal;Rondônia;8605776,5
-246;Amazônia Legal;Roraima;977165,84
-246;Amazônia Legal;Tocantins;3023086,37
-259;Amazônia Legal;Acre;20024
-259;Amazônia Legal;Amapá;2478,37
-259;Amazônia Legal;Amazonas;48097,35
-259;Amazônia Legal;Maranhão;29739,34
-259;Amazônia Legal;Mato Grosso;110654,39
-259;Amazônia Legal;Pará;210086,32
-259;Amazônia Legal;Rondônia;96388,66
-259;Amazônia Legal;Roraima;14841,41
-259;Amazônia Legal;Tocantins;7711,6
-259;Amazônia Legal;Acre;472,69
-259;Amazônia Legal;Amazonas;759,17
-259;Amazônia Legal;Maranhão;249,59
-259;Amazônia Legal;Mato Grosso;2628,3
-259;Amazônia Legal;Pará;3432,34
-259;Amazônia Legal;Rondônia;682,28
-259;Amazônia Legal;Roraima;522,46
-259;Amazônia Legal;Tocantins;63,71
-272;Amazônia Legal;Acre;34860,95
-272;Amazônia Legal;Amapá;2910,54
-272;Amazônia Legal;Amazonas;55282,43
-272;Amazônia Legal;Maranhão;28636,54
-272;Amazônia Legal;Mato Grosso;110620,99
-272;Amazônia Legal;Pará;179688,99
-272;Amazônia Legal;Rondônia;76130,2
-272;Amazônia Legal;Roraima;18905,89
-272;Amazônia Legal;Tocantins;4506,4
-272;Amazônia Legal;Acre;385,42
-272;Amazônia Legal;Amazonas;923,49
-272;Amazônia Legal;Maranhão;231,45
-272;Amazônia Legal;Mato Grosso;765,59
-272;Amazônia Legal;Pará;3301,1
-272;Amazônia Legal;Rondônia;753,16
-272;Amazônia Legal;Roraima;166,36
-272;Amazônia Legal;Tocantins;28,86
-285;Amazônia Legal;Acre;22300,37
-285;Amazônia Legal;Amapá;1910,93
-285;Amazônia Legal;Amazonas;68735,93
-285;Amazônia Legal;Maranhão;21741,8
-285;Amazônia Legal;Mato Grosso;149552,3
-285;Amazônia Legal;Pará;230509,33
-285;Amazônia Legal;Rondônia;96072,15
-285;Amazônia Legal;Roraima;15429,36
-285;Amazônia Legal;Tocantins;5530,11
-285;Amazônia Legal;Acre;24108,15
-285;Amazônia Legal;Amapá;2686,59
-285;Amazônia Legal;Amazonas;20517,78
-285;Amazônia Legal;Maranhão;12263,69
-285;Amazônia Legal;Mato Grosso;17959,1
-285;Amazônia Legal;Pará;58200,4
-285;Amazônia Legal;Rondônia;12603,19
-285;Amazônia Legal;Roraima;8214,9
-285;Amazônia Legal;Tocantins;1918,77
-207;Caatinga;Alagoas;2877.130951
-207;Caatinga;Bahia;61872.16951
-207;Caatinga;Ceará;59130.915610000004
-207;Caatinga;Maranhão;2591.143128
-207;Caatinga;Minas Gerais;6134.212018
-207;Caatinga;Paraíba;18780.15359
-207;Caatinga;Pernambuco;23024.34719
-207;Caatinga;Piauí;46489.451610000004
-207;Caatinga;Rio Grande do Norte;7448.573115
-207;Caatinga;Sergipe;2730.000365
-207;Cerrado;Bahia;64809.704529999995
-233;Cerrado;Bahia;100317.6627
-233;Cerrado;Distrito Federal;225.419675
-233;Cerrado;Goiás;64071.68095
-233;Cerrado;Maranhão;131059.3171
-233;Cerrado;Mato Grosso;79791.47857
-233;Cerrado;Mato Grosso do Sul;31178.61371
-233;Cerrado;Minas Gerais;72058.74166
-116;Cerrado;Pará;808.22556
-233;Cerrado;Paraná;207.151568
-233;Cerrado;Piauí;129227.0467
-220;Cerrado;Rondônia;5.7244209999999995
-233;Cerrado;São Paulo;487.14045300000004
-233;Cerrado;Tocantins;116038.8512
-194;Mata Atlântica;Alagoas;41019.11826
-207;Mata Atlântica;Bahia;6582.300805
-207;Mata Atlântica;Espírito Santo;206.711242
-207;Mata Atlântica;Goiás;158.600108
-207;Mata Atlântica;Mato Grosso do Sul;972.9288619999999
-207;Mata Atlântica;Minas Gerais;11575.78193
-207;Mata Atlântica;Paraná;1408.334595
-207;Mata Atlântica;Pernambuco;28.874019
-207;Mata Atlântica;Rio de Janeiro;36.669652
-207;Mata Atlântica;Rio Grande do Sul;726.677722
-207;Mata Atlântica;Santa Catarina;1761.465825
-207;Mata Atlântica;Sergipe;79.018838
-207;Mata Atlântica;São Paulo;1334.245048
-207;Pampa;Rio Grande do Sul;4593.250683
-207;Pantanal;Mato Grosso;8921.559148
-207;Pantanal;Mato Grosso do Sul;9925.748323
-
+ID_data;UF;Bioma;Area_desmatada_hec
+246;AC;Amazônia Legal;2074194.28
+246;AP;Amazônia Legal;300224.71
+246;AM;Amazônia Legal;3509103.62
+246;MA;Amazônia Legal;10792084.54
+246;MT;Amazônia Legal;20828885.18
+246;PA;Amazônia Legal;25390530.66
+246;RO;Amazônia Legal;8605776.5
+246;RR;Amazônia Legal;977165.84
+246;TO;Amazônia Legal;3023086.37
+259;AC;Amazônia Legal;20024
+259;AP;Amazônia Legal;2478.37
+259;AM;Amazônia Legal;48097.35
+259;MA;Amazônia Legal;29739.34
+259;MT;Amazônia Legal;110654.39
+259;PA;Amazônia Legal;210086.32
+259;RO;Amazônia Legal;96388.66
+259;RR;Amazônia Legal;14841.41
+259;TO;Amazônia Legal;7711.6
+272;AC;Amazônia Legal;34860.95
+272;AP;Amazônia Legal;2910.54
+272;AM;Amazônia Legal;55282.43
+272;MA;Amazônia Legal;28636.54
+272;MT;Amazônia Legal;110620.99
+272;PA;Amazônia Legal;179688.99
+272;RO;Amazônia Legal;76130.2
+272;RR;Amazônia Legal;18905.89
+272;TO;Amazônia Legal;4506.4
+285;AC;Amazônia Legal;22300.37
+285;AP;Amazônia Legal;1910.93
+285;AM;Amazônia Legal;68735.93
+285;MA;Amazônia Legal;21741.8
+285;MT;Amazônia Legal;149552.3
+285;PA;Amazônia Legal;230509.33
+285;RO;Amazônia Legal;96072.15
+285;RR;Amazônia Legal;15429.36
+285;TO;Amazônia Legal;5530.11
+207;AL;Caatinga;2877.130951
+207;BA;Caatinga;61872.16951
+207;CE;Caatinga;59130.915610000004
+207;MA;Caatinga;2591.143128
+207;MG;Caatinga;6134.212018
+207;PB;Caatinga;18780.15359
+207;PE;Caatinga;23024.34719
+207;PI;Caatinga;46489.451610000004
+207;RN;Caatinga;7448.573115
+207;SE;Caatinga;2730.000365
+207;BA;Cerrado;64809.704529999995
+233;BA;Cerrado;100317.6627
+233;DF;Cerrado;225.419675
+233;GO;Cerrado;64071.68095
+233;MA;Cerrado;131059.3171
+233;MT;Cerrado;79791.47857
+233;MS;Cerrado;31178.61371
+233;MG;Cerrado;72058.74166
+116;PA;Cerrado;808.22556
+233;PR;Cerrado;207.151568
+233;PI;Cerrado;129227.0467
+220;RO;Cerrado;5.7244209999999995
+233;SP;Cerrado;487.14045300000004
+233;TO;Cerrado;116038.8512
+194;AL;Mata Atlântica;41019.11826
+207;BA;Mata Atlântica;6582.300805
+207;ES;Mata Atlântica;206.711242
+207;GO;Mata Atlântica;158.600108
+207;MS;Mata Atlântica;972.9288619999999
+207;MG;Mata Atlântica;11575.78193
+207;PR;Mata Atlântica;1408.334595
+207;PE;Mata Atlântica;28.874019
+207;RJ;Mata Atlântica;36.669652
+207;RS;Mata Atlântica;726.677722
+207;SC;Mata Atlântica;1761.465825
+207;SE;Mata Atlântica;79.018838
+207;SP;Mata Atlântica;1334.245048
+207;RS;Pampa;4593.250683
+207;MT;Pantanal;8921.559148
+207;MS;Pantanal;9925.748323
