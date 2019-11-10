@@ -1,6 +1,6 @@
 
 
-CREATE TABLE `Bioma` (
+CREATE TABLE `bioma` (
   `Nome` varchar(14) PRIMARY KEY,
   `Area_protecao_integral` int(8) DEFAULT NULL,
   `Area_uso_sustentavel` int(8) DEFAULT NULL
@@ -10,7 +10,7 @@ CREATE TABLE `Bioma` (
 -- Extraindo dados da tabela `bioma_1`
 --
 
-INSERT INTO `Bioma` (`Nome`, `Area_protecao_integral`, `Area_uso_sustentavel`) VALUES
+INSERT INTO `bioma` (`Nome`, `Area_protecao_integral`, `Area_uso_sustentavel`) VALUES
   ('Caatinga', 1117400, 5359300),
   ('Cerrado', 6489700, 17735500),
   ('Mata Atlântica', 2871100, 8671900),
@@ -413,11 +413,11 @@ INSERT INTO `estados` (`UF`, `Estado`, `Regiao`, `Número_habitantes`) VALUES
 
 
 CREATE TABLE `estado_bioma` (
-  `Bioma` varchar(14) DEFAULT NULL,
+  `bioma` varchar(14) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL,
-   KEY `Bioma` (`Bioma`),
+   KEY `bioma` (`bioma`),
    KEY `UF` (`UF`),
-   CONSTRAINT `e_1`FOREIGN KEY (`Bioma`) REFERENCES `Bioma` (`Nome`),
+   CONSTRAINT `e_1`FOREIGN KEY (`bioma`) REFERENCES `bioma` (`Nome`),
    CONSTRAINT `e_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`)
 );
 
@@ -425,7 +425,7 @@ CREATE TABLE `estado_bioma` (
 -- Extraindo dados da tabela `estado_bioma`
 --
 
-INSERT INTO `estado_bioma` (`Bioma`, `UF`) VALUES
+INSERT INTO `estado_bioma` (`bioma`, `UF`) VALUES
   ('Caatinga', 'AL'),
   ('Caatinga', 'BA'),
   ('Caatinga', 'CE'),
@@ -691,20 +691,20 @@ CREATE TABLE `queimadas` (
 CREATE TABLE `desmatamento` (
   `ID_data` int(3) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL,
-  `Bioma` varchar(14) DEFAULT NULL,
+  `bioma` varchar(14) DEFAULT NULL,
   `Area_desmatada_hec` varchar(18) DEFAULT NULL,
    KEY `ID_data` (`ID_data`),
    KEY `UF` (`UF`),
-   KEY `Bioma` (`Bioma`),
+   KEY `bioma` (`bioma`),
    CONSTRAINT `d_1`FOREIGN KEY (`ID_data`) REFERENCES `data` (`ID_data`),
    CONSTRAINT `d_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`),
-   CONSTRAINT `d_3`FOREIGN KEY (`Bioma`) REFERENCES `bioma` (`Nome`)
+   CONSTRAINT `d_3`FOREIGN KEY (`bioma`) REFERENCES `bioma` (`Nome`)
 );
 
 --
 -- Extraindo dados da tabela `desmatamento`
 --
-INSERT INTO `desmatamento` (`ID_data`, `UF`, `Bioma`, `Area_desmatada_hec`) VALUES
+INSERT INTO `desmatamento` (`ID_data`, `UF`, `bioma`, `Area_desmatada_hec`) VALUES
   (246, 'AC', 'Amazônia Legal', '2074194.28'),
   (246, 'AP', 'Amazônia Legal', '300224.71'),
   (246, 'AM', 'Amazônia Legal', '3509103.62'),
