@@ -415,8 +415,6 @@ INSERT INTO `estados` (`UF`, `Estado`, `Regiao`, `Número_habitantes`) VALUES
 CREATE TABLE `estado_bioma` (
   `bioma` varchar(14) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL,
-   KEY `bioma` (`bioma`),
-   KEY `UF` (`UF`),
    CONSTRAINT `e_1`FOREIGN KEY (`bioma`) REFERENCES `bioma` (`Nome`),
    CONSTRAINT `e_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`)
 );
@@ -488,8 +486,6 @@ CREATE TABLE `florestas_plantadas` (
   `UF` varchar(2) DEFAULT NULL,
   `Especie` varchar(11) DEFAULT NULL,
   `Area` decimal(8,1) DEFAULT NULL,
-   KEY `ID_data` (`ID_data`),
-   KEY `UF` (`UF`),
    CONSTRAINT `f_1`FOREIGN KEY (`ID_data`) REFERENCES `data` (`ID_data`),
    CONSTRAINT `f_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`)
 );
@@ -675,8 +671,6 @@ CREATE TABLE `queimadas` (
   `ID_data` int(3) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL,
   `Qnt_focos` int(5) DEFAULT NULL,
-   KEY `ID_data` (`ID_data`),
-   KEY `UF` (`UF`),
    CONSTRAINT `q_1`FOREIGN KEY (`ID_data`) REFERENCES `data` (`ID_data`),
    CONSTRAINT `q_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`)
 );
@@ -693,9 +687,6 @@ CREATE TABLE `desmatamento` (
   `UF` varchar(2) DEFAULT NULL,
   `bioma` varchar(14) DEFAULT NULL,
   `Area_desmatada_hec` varchar(18) DEFAULT NULL,
-   KEY `ID_data` (`ID_data`),
-   KEY `UF` (`UF`),
-   KEY `bioma` (`bioma`),
    CONSTRAINT `d_1`FOREIGN KEY (`ID_data`) REFERENCES `data` (`ID_data`),
    CONSTRAINT `d_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`),
    CONSTRAINT `d_3`FOREIGN KEY (`bioma`) REFERENCES `bioma` (`Nome`)
@@ -3905,7 +3896,6 @@ CREATE TABLE `terra_indigena` (
   `UF` varchar(5) DEFAULT NULL,
   `MODALIDADE` varchar(24) DEFAULT NULL,
   `AREA` varchar(12) DEFAULT NULL,
-   KEY `UF` (`UF`),
    CONSTRAINT `ti_2`FOREIGN KEY (`UF`) REFERENCES `estados` (`UF`)
 );
 --
