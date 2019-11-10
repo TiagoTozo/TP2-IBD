@@ -1,5 +1,4 @@
 
-DROP TABLE IF EXISTS `Bioma`;
 
 CREATE TABLE `Bioma` (
   `Nome` varchar(14) PRIMARY KEY,
@@ -24,7 +23,6 @@ INSERT INTO `Bioma` (`Nome`, `Area_proteção_integral`, `Area_uso_sustentavel`)
 --
 -- Estrutura da tabela `data`
 --
-DROP TABLE IF EXISTS `data`;
 CREATE TABLE `data` (
   `ID_data` int(3) PRIMARY KEY,
   `Ano` int(4) DEFAULT NULL,
@@ -367,7 +365,6 @@ INSERT INTO `data` (`ID_data`, `Ano`, `Mês`) VALUES
 --
 -- Estrutura da tabela `estados`
 --
-DROP TABLE IF EXISTS `estados`;
 CREATE TABLE `estados` (
   `UF` varchar(2) PRIMARY KEY,
   `Estado` varchar(19) DEFAULT NULL,
@@ -413,7 +410,6 @@ INSERT INTO `estados` (`UF`, `Estado`, `Regiao`, `Número_habitantes`) VALUES
 --
 -- Estrutura da tabela `estado_bioma`
 --
-DROP TABLE IF EXISTS `estado_bioma`;
 
 
 CREATE TABLE `estado_bioma` (
@@ -486,7 +482,6 @@ INSERT INTO `estado_bioma` (`Bioma`, `UF`) VALUES
 --
 -- Estrutura da tabela `florestas_plantadas`
 --
-DROP TABLE IF EXISTS `florestas_plantadas`;
 
 CREATE TABLE `florestas_plantadas` (
   `ID_data` int(3) DEFAULT NULL,
@@ -675,7 +670,6 @@ INSERT INTO `florestas_plantadas` (`ID_data`, `UF`, `Especie`, `Area`) VALUES
 --
 -- Estrutura da tabela `queimadas`
 --
-DROP TABLE IF EXISTS `queimadas`;
 
 CREATE TABLE `queimadas` (
   `ID_data` int(3) DEFAULT NULL,
@@ -694,7 +688,6 @@ CREATE TABLE `queimadas` (
 -- Estrutura da tabela `desmatamento`
 --
 
-DROP TABLE IF EXISTS `desmatamento`;
 CREATE TABLE `desmatamento` (
   `ID_data` int(3) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL,
@@ -3906,7 +3899,6 @@ INSERT INTO `queimadas` (`ID_data`, `UF`, `Qnt_focos`) VALUES
 --
 -- Estrutura da tabela `terra_indigena`
 --
-DROP TABLE IF EXISTS `terra_indigena`;
 CREATE TABLE `terra_indigena` (
   `TERRA_INDIGENA` varchar(32) DEFAULT NULL,
   `ETNIA` varchar(37) DEFAULT NULL,
