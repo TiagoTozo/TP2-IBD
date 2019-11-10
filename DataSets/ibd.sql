@@ -20,7 +20,7 @@ CREATE TABLE `bioma` (
   `Bioma` varchar(14) DEFAULT NULL,
   `Area_proteção_integral` int(8) DEFAULT NULL,
   `Area_uso_sustentavel` int(8) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ;
 
 --
 -- Extraindo dados da tabela `bioma`
@@ -44,7 +44,7 @@ CREATE TABLE `data` (
   `ID_data` int(3) DEFAULT NULL,
   `Ano` int(4) DEFAULT NULL,
   `Mês` varchar(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `data`
@@ -388,7 +388,7 @@ CREATE TABLE `desmatamento` (
   `Bioma` varchar(14) DEFAULT NULL,
   `Estado` varchar(19) DEFAULT NULL,
   `Area_desmatada_hec` varchar(18) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `desmatamento`
@@ -509,7 +509,7 @@ CREATE TABLE `estado` (
   `Estado` varchar(19) DEFAULT NULL,
   `Regiao` varchar(12) DEFAULT NULL,
   `Número_habitantes` int(8) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `estado`
@@ -553,7 +553,7 @@ INSERT INTO `estado` (`UF`, `Estado`, `Regiao`, `Número_habitantes`) VALUES
 CREATE TABLE `estado_bioma` (
   `Bioma` varchar(14) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `estado_bioma`
@@ -631,7 +631,7 @@ CREATE TABLE `floresta_plantada` (
   `UF` varchar(2) DEFAULT NULL,
   `Especie` varchar(11) DEFAULT NULL,
   `Area` varchar(8) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `floresta_plantada`
@@ -985,8 +985,7 @@ INSERT INTO `floresta_plantada` (`ID_data`, `UF`, `Especie`, `Area`) VALUES
 ('298', 'NI', 'Paricá', '90047.0'),
 ('298', 'NI', 'Araucária', '11114.0'),
 ('298', 'NI', 'Pópulus', '4216.0'),
-('298', 'NI', 'Outras', '6641.0'),
-('', NULL, NULL, NULL);
+('298', 'NI', 'Outras', '6641.0');
 
 -- --------------------------------------------------------
 
@@ -998,7 +997,7 @@ CREATE TABLE `queimadas` (
   `ID_data` int(3) DEFAULT NULL,
   `UF` varchar(2) DEFAULT NULL,
   `Qnt_focos` int(5) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `queimadas`
@@ -7473,7 +7472,7 @@ CREATE TABLE `terra_indigena` (
   `UF` varchar(5) DEFAULT NULL,
   `MODALIDADE` varchar(24) DEFAULT NULL,
   `AREA` varchar(12) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 --
 -- Extraindo dados da tabela `terra_indigena`
